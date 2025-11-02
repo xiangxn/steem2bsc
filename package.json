@@ -1,0 +1,16 @@
+{
+  "name": "steem2bsc",
+  "packageManager": "yarn@4.5.2",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/main.js",
+    "encrypt:env": "node src/utils/encrypt-env.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "dsteem": "^0.11.3",
+    "ethers": "^6.15.0",
+    "mysql2": "^3.15.3",
+    "readline-sync": "^1.4.10"
+  }
+}
