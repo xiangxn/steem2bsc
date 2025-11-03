@@ -16,3 +16,4 @@ node_modules
 .env.local
 *_block.txt
 .vscode/settings.json
+logs
